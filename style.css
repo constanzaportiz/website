@@ -231,7 +231,7 @@ body.new-page .back-link:hover {
 }
 
 .podcast-text {
-  max-width: 80%;
+  max-width: 90%;
 }
 
 @media (max-width: 600px) {
