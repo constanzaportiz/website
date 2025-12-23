@@ -239,3 +239,13 @@ body.new-page .back-link:hover {
     display: none;
   }
 }
+
+.footer-credit {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: left;
+}
