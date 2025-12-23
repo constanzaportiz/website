@@ -229,3 +229,7 @@ body.new-page .back-link:hover {
     font-size: 15px;
   }
 }
+
+.podcast-text {
+  max-width: 70%;
+}
