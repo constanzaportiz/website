@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CUERPO */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 30px 0 60px 40px;
+  max-width: 700px;
+  color: #111;
+  background: white;
+}
+
+/* TÍTULOS */
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+/* TEXTO */
+p {
+  margin-bottom: 24px;
+}
+
+/* LINKS */
+a {
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* IMÁGENES */
+img {
+  max-width: 400px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.back-link-container {
+  text-align: left;
+  margin: 0px 0;
+}
+
+#back-link {
+  font-size: 16px;
+  color: #111;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#back-link:hover {
+  color: blue; /* hover color */
+  text-decoration: none; /* optional */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================
+   CUERPO / BODY
+   ========================== */
+body.home-page,
+body.about-page,
+body.products-page,
+body.new-page,
+body.podcast-page {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 30px 0 60px 40px;
+  max-width: 700px;
+  color: #111;
+  background: white;
+}
+
+/* ==========================
+   TÍTULOS
+   ========================== */
+body.home-page h1,
+body.about-page h1,
+body.products-page h1,
+body.new-page h1,
+body.podcast-page h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+/* ==========================
+   TEXTO
+   ========================== */
+body.home-page p,
+body.about-page p,
+body.products-page p,
+body.new-page p,
+body.podcast-page p {
+  margin-bottom: 24px;
+}
+
+/* ==========================
+   LINKS
+   ========================== */
+body.home-page a,
+body.about-page a,
+body.products-page a,
+body.new-page a,
+body.podcast-page a {
+  color: blue;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+body.home-page a:hover,
+body.about-page a:hover,
+body.products-page a:hover,
+body.new-page a:hover,
+body.podcast-page a:hover {
+  opacity: 0.7;
+}
+
+/* ==========================
+   IMÁGENES
+   ========================== */
+body.home-page img,
+body.about-page img,
+body.products-page img,
+body.new-page img,
+body.podcast-page img {
+  max-width: 450px;
+  height: auto;
+  margin: 0px 0;
+}
+
+body.new-page header {
+  margin-bottom: 24px;
+}
+
+body.new-page h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+body.new-page #updates p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+body.new-page footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+body.new-page .back-link {
+  font-size: 16px;
+  color: #111;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+body.new-page .back-link:hover {
+  opacity: 0.7;
+}
