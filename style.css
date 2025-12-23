@@ -174,3 +174,58 @@ body.new-page .back-link {
 body.new-page .back-link:hover {
   opacity: 0.7;
 }
+
+/* ==========================
+   RESPONSIVE – MOBILE
+   No cambia desktop
+   ========================== */
+
+@media (max-width: 768px) {
+
+  /* BODY */
+  body,
+  body.home-page,
+  body.about-page,
+  body.products-page,
+  body.new-page,
+  body.podcast-page {
+    margin: 20px 16px 40px 16px; /* elimina margen izquierdo enorme */
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  /* TITLES */
+  h1,
+  body.new-page h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  /* TEXT */
+  p,
+  body.new-page #updates p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  /* IMAGES */
+  img,
+  body.home-page img,
+  body.about-page img,
+  body.products-page img,
+  body.new-page img,
+  body.podcast-page img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* BACK LINK */
+  .back-link-container {
+    margin-top: 20px;
+  }
+
+  #back-link,
+  body.new-page .back-link {
+    font-size: 15px;
+  }
+}
