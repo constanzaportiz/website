@@ -95,7 +95,7 @@ body.new-page h1,
 body.podcast-page h1 {
   font-size: 28px;
   font-weight: normal;
-  margin-bottom: 16px;
+  margin-bottom: -10px;
 }
 
 /* ==========================
@@ -138,7 +138,7 @@ body.about-page img,
 body.products-page img,
 body.new-page img,
 body.podcast-page img {
-  max-width: 300px;
+  max-width: 680px;
   height: auto;
   margin: 0px 0;
 }
@@ -150,7 +150,7 @@ body.new-page header {
 body.new-page h1 {
   font-size: 32px;
   font-weight: normal;
-  margin-bottom: 16px;
+  margin-bottom: px;
 }
 
 body.new-page #updates p {
@@ -290,12 +290,12 @@ footer {
 .bio {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* espacio entre líneas */
-  margin-top: 20px;
+  gap: 4px; /* espacio entre líneas */
+  margin-top: 0px;
 }
 
 .email {
-  margin-top: 10px; /* reemplaza el <br><br> */
+  margin-top: 0px; /* reemplaza el <br><br> */
   text-decoration: none;
   color: inherit;
 }
